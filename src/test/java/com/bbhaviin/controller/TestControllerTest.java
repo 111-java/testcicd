@@ -20,7 +20,7 @@ public class TestControllerTest {
     @Test
     public void testEndPoint() throws Exception{
 
-        String name = "mumbai";
+        String name = "bhavin chheda";
 
         mockMvc.perform(MockMvcRequestBuilders.get("/greetings/{name}", name))
                 .andExpect(MockMvcResultMatchers.status().isOk())

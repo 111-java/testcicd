@@ -11,6 +11,9 @@ public class TestController {
 
     @GetMapping("/{name}")
     public String myTest(@PathVariable String name){
+
+        name = name.split("")[0];
+
         return "Hello " + name + " Congrats successfully completed Jenkins Demo...";
     }
 
