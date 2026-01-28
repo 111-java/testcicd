@@ -11,7 +11,11 @@
 	<groupId>com.bbhaviin</groupId>
 	<artifactId>b_sampleappa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+<<<<<<< HEAD
     <packaging>war</packaging>
+=======
+	<packaging>war</packaging>
+>>>>>>> 96dc60c1506dac9da6e62871f9c84163b9910c33
 	<name>b_sampleappa</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
